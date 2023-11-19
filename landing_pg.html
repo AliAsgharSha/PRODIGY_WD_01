@@ -40,7 +40,7 @@
          </div>
          <form action="#" class="searchbar">
             <input type="text" placeholder="search">
-            <button type="submit"><i class='bx bx-search'></i></button>
+            <button type="submit"><i class='bx_search'></i></button>
          </form>
          <div class="menu">
             <a href="#">Home</a>
@@ -52,6 +52,8 @@
          </div>
       </nav>
    </header>
+   <button onclick="changeBackgroundColor()" class="color-change-btn">Change Background Color</button>
+
 
    <div class="border-below"></div>
    <h1 class="heading1">About Us</h1>
@@ -95,6 +97,15 @@
       <img src="Image/Marketing2.jpeg" alt="Service 2" class="services-img">
       <img src="Image/digital3.jpeg" alt="Service 3" class="services-img">
     </div>
+
+<script>
+   function changeBackgroundColor() {
+     var body = document.querySelector('body');
+     var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
+     body.style.backgroundColor = randomColor;
+   }
+ </script>
+ 
     
 
 
