@@ -57,6 +57,28 @@
    background:none;
    border-radius: 50%;
  }
+ .bx-search{
+  width: 100px;
+  height: 30px;
+ }
+.color-change-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+  width: 200px;
+  margin-left: 20px;
+  margin-top: 20px; 
+}
+.color-change-btn:hover {
+  background-color: gray;
+}
+
  .searchbar {
    width: 20%;
    height: 30px;
